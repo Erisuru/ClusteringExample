@@ -1,0 +1,7 @@
+services:
+  web:
+    build:
+      context: .
+    hostname: ${HOSTNAME}
+    ports:
+      - '1234:4000'
